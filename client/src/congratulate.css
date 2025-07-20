@@ -1,0 +1,35 @@
+.congrats-container {
+  height: 100vh;
+  background: linear-gradient(to right, #f093fb, #f5576c);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in;
+}
+
+.blast {
+  font-size: 3rem;
+  animation: pop 0.4s ease-in-out alternate infinite;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

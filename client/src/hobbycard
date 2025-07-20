@@ -1,0 +1,11 @@
+
+const HobbyCard = ({ hobby }) => {
+  return (
+    <div className="card">
+      <h3>{hobby.name}</h3>
+      <p>{hobby.description}</p>
+    </div>
+  );
+};
+
+export default HobbyCard;
